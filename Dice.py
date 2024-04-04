@@ -4,6 +4,7 @@ dice1 = random.randint(1, 6)
 dice2 = random.randint(1, 6)
 total = dice1 + dice2
 result = f"The sum of dice is {dice1} + {dice2} = {total}"
+
 if total in (7, 11):
     print(result)
     print("You won")
